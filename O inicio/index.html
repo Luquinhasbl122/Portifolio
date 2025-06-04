@@ -4,13 +4,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu portfolio em repositorio</title>
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <h1>Olá mundo!</h1>
-    <hr>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et incidunt aperiam ipsa nisi quod laudantium expedita doloremque animi, cumque molestias similique eveniet repudiandae nobis totam atque obcaecati fugiat laborum quis!
-    </p>
+    <header class="header">
+        <div class="container header-content">
+            <div class="profile-image">
+                <img src="./imagens/sua-foto.jpg" alt="Minha foto de perfil">
+            </div>
+            <div class="header-text">
+                <h1>Lucas Gabriel</h1>
+                <p class="subtitle">Desenvolvedor Web</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="sobre">
+            <h2>Sobre Mim</h2>
+            <p>Olá! Sou um desenvolvedor apaixonado por criar soluções web inovadoras. 
+               Estou sempre em busca de novos desafios e aprendizados na área de tecnologia.</p>
+        </section>
+
+        <section class="redes-sociais">
+            <h2>Onde me Encontrar</h2>
+            <div class="social-links">
+                <a href="https://github.com/seu-usuario" target="_blank" class="social-link">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <!-- Adicione outros links sociais aqui -->
+            </div>
+        </section>
+
+        <section class="projetos">
+            <h2>Meus Projetos</h2>
+            <div class="projetos-grid">
+                <!-- Os projetos serão adicionados aqui -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 - Desenvolvido com ❤️</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
