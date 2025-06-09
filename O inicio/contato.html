@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <div class="profile-image">
+                <img src="./imagens/sua-foto.jpg" alt="Minha foto de perfil">
+            </div>
+            <div class="header-text">
+                <h1>Lucas Gabriel</h1>
+                <p class="subtitle">Desenvolvedor Web</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sua navbar aqui -->
+    <nav class="navbar">
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="contato.html" class="active">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="contato">
+            <h2>Entre em Contato</h2>
+            <div class="contato-content">
+                <!-- Formulário de Contato -->
+                <div class="formulario">
+                    <form>
+                        <div class="form-group">
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome" name="nome" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensagem">Mensagem:</label>
+                            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-enviar">Enviar Mensagem</button>
+                    </form>
+                </div>
+
+                <!-- Informações de Contato -->
+                <div class="contato-info">
+                    <h3>Outras Formas de Contato</h3>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/luquinhas_moraes" class="social-link">
+                            <i class="fas fa-envelope"></i> Instagram
+                        </a>
+                        <a href="https://www.linkedin.com/in/lucas-gabriel456/" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
+                        <a href="https://github.com/Luquinhasbl122" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 - Desenvolvido com ❤️</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
+ 
+ 
